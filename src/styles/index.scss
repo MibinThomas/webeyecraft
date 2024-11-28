@@ -1,9 +1,24 @@
-
-
 @import "slick-carousel/slick/slick.css";
-@import "node_modules/react-modal-video/scss/modal-video.scss"; 
+@import "node_modules/react-modal-video/scss/modal-video.scss";
 @import "node_modules/react-18-image-lightbox/src/style.css";
 @import "@splidejs/react-splide/css";
 @import "~bootstrap/scss/bootstrap";
 @import "swiper/css/bundle";
-@import "/public/assets/scss/main.scss"
+@import "/public/assets/scss/main.scss";
+
+
+div.floating-btn-wrapper {
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    z-index: 999;
+
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+    }
+}

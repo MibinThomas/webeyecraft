@@ -1,1 +1,7 @@
-{"/_app":"pages/_app.js","/_error":"pages/_error.js","/_document":"pages/_document.js","/404":"pages/404.html","/about":"pages/about.html","/blog-details":"pages/blog-details.html","/blog":"pages/blog.html","/contact":"pages/contact.html","/home-2":"pages/home-2.html","/home-3":"pages/home-3.html","/":"pages/index.html","/portfolio":"pages/portfolio.html","/portfolio-details":"pages/portfolio-details.html","/service-details":"pages/service-details.html","/team-details":"pages/team-details.html","/service":"pages/service.html","/team":"pages/team.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/about": "pages/about.js"
+}
