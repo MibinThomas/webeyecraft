@@ -2,14 +2,14 @@ import Head from "next/head";
 
 const SEO = ({
   pageTitle,
-  description = "Your default page description here",
+  description = "Webeyecraft Technologies provides top-tier Web Development, UI/UX Design, Digital Marketing, and Custom Software Development services. Empower your business with cutting-edge IT solutions in India, UAE, GCC, and beyond.",
   robots = "index, follow",
   imageUrl,
 }) => (
   <Head>
     <title>
       {pageTitle
-        ? `${pageTitle} - Technology & IT Solutions React Next.js Template`
+        ? `${pageTitle} - Webeyecraft Technologies | Best Web App Development | UI/UX Development | Website Design and Development | Digital Marketing Company | UI/UX Design Services in India | Digital Marketing Experts in India | Custom Software Development Company in India  | Top Web Application Development Company | Best IT Solutions Provider in India`
         : "Default Title"}
     </title>
 
@@ -26,7 +26,7 @@ const SEO = ({
       property="og:title"
       content={
         pageTitle
-          ? `${pageTitle} - Technology & IT Solutions React Next.js Template`
+          ? `${pageTitle} - Webeyecraft Technologies | Best Web App Development | UI/UX Development | Website Design and Development | Digital Marketing Company | UI/UX Design Services in India | Digital Marketing Experts in India | Custom Software Development Company in India  | Top Web Application Development Company | Best IT Solutions Provider in India`
           : "Default Title"
       }
     />
@@ -46,7 +46,7 @@ const SEO = ({
       name="twitter:title"
       content={
         pageTitle
-          ? `${pageTitle} - Technology & IT Solutions React Next.js Template`
+          ? `${pageTitle} - Webeyecraft Technologies | Best Web App Development | UI/UX Development | Website Design and Development | Digital Marketing Company | UI/UX Design Services in India | Digital Marketing Experts in India | Custom Software Development Company in India  | Top Web Application Development Company | Best IT Solutions Provider in India`
           : "Default Title"
       }
     />
